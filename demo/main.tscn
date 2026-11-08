@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/agent_kit/screenshot.gd" id="1_shot"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 40.0
+offset_top = 40.0
+offset_right = 600.0
+offset_bottom = 120.0
+text = "Agent Kit demo scene. Run with -- --screenshot=out.png to capture this."
+
+[node name="Screenshot" type="Node" parent="."]
+script = ExtResource("1_shot")
