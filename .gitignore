@@ -1,3 +1,4 @@
 .godot/
 .junit.xml
 *.uid.tmp
+dist/
